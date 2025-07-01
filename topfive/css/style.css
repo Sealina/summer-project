@@ -1,0 +1,129 @@
+body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background-color: #FFF8C4;  
+}
+
+.nav-btn {
+  text-decoration: none;
+  padding: 10px 20px;
+  border-radius: 300px;
+  font-weight: bold;
+  font-size: 45px;
+  color: white;
+  display: inline-block;
+  margin-top: 100px;
+
+}
+
+nav {
+   display: flex;
+   justify-content: center;
+   gap: 200px;
+
+}
+
+.home { background-color: #FFB6D9; }
+
+.home:hover {
+    background-color: #e69dc5; 
+    cursor: pointer;
+}
+
+.inspo { background-color: #66CCFF; }
+
+.inspo:hover {
+    background-color: #5bb9e0; 
+    cursor: pointer;
+}
+
+.favs { background-color: #B6E87C; }
+
+.portfolio { background-color: #FFC469; }
+
+.portfolio:hover {
+    background-color: #f8c167; 
+    cursor: pointer;
+}
+
+
+.active {
+  text-decoration: underline;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+header {
+      height: 100px;
+      background-color: #B6E87C;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+
+
+
+.grid {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px; 
+  justify-content: center;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.vertical-rect {
+  width: 250px;        
+  height: 375px;       
+  object-fit: cover;  
+  border-radius: 8px;  
+}
+
+.anime-row {
+  display: flex;
+  justify-content: center;
+  gap: 20px; 
+  flex-wrap: wrap; 
+}
+
+.anime {
+  text-align: center;
+}
+
+
+.floating-img {
+  position: absolute;
+  top: 110px;  /* up and down */
+  left: 20px;  
+  z-index: 10;
+}
+
+.floating-img img {
+  width: 215px;
+  height: auto;
+}
+
+.windchime {
+    position: absolute;
+    top: 280px;       
+    right: -100px;     
+    width: 450px;    
+    z-index: 10;     
+}
+
+footer {
+  background-color: #c5f582;
+  min-height: 50px;
+  padding: 20px;
+  text-align: center;
+}

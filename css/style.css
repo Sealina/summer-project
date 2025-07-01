@@ -1,0 +1,138 @@
+body {
+     margin: 0;
+     font-family: Arial, sans-serif;
+     background-color:#FFF8C4;  
+}
+
+nav {
+     display: flex;
+     justify-content: center;
+     gap: 200px;
+
+}
+
+.nav-btn {
+     position: relative;
+     border: none;
+     margin-top: 100px;
+     border-radius: 300px;
+     padding: 10px 20px;
+     font-weight: bold;
+     color: white;
+     cursor: pointer;
+     font-size: 45px;
+}
+
+
+
+.home {
+    background-color: #F2B6D7;
+    text-decoration: none;
+}
+
+.inspo {
+    background-color: #6DCCF2;
+    text-decoration: none;
+}
+
+.inspo:hover {
+    background-color: #5bb9e0; 
+    cursor: pointer;
+}
+
+.favs {
+    background-color: #ADD96C;
+    text-decoration: none;
+}
+
+.favs:hover {
+    background-color: #9cc95a; 
+    cursor: pointer;
+}
+
+.portfolio {
+    background-color: #FDCF81;
+    text-decoration: none;
+}
+
+.portfolio:hover {
+    background-color: #f8c167; 
+    cursor: pointer;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    padding: 20px;
+}
+
+ header {
+      height: 100px;
+      background-color: #F2B6D7;
+      color: white;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      font-size: 20px;
+    }
+
+
+.catbox {
+  position: relative;
+  left: 350px;
+  top: 50px;
+
+}
+
+.drawing {
+  width: 600px;
+  height: auto;
+  position: relative;
+  top: -770px; 
+  z-index: 15;   
+}
+
+.text {
+  position: absolute;
+  top: 240px;      
+  left: 660px;     
+  color: #d474a9;    
+  font-size: 30px;
+  font-weight: bold;
+}
+
+.text {
+  width: 90%;               
+  max-width: 800px;
+  padding: 20px;
+  word-wrap: break-word;    
+  white-space: normal;      
+  overflow-wrap: break-word;
+}
+
+.text p {
+  font-size: 18px;
+  color: #000000;
+  line-height: 1.2;
+}
+
+
+.turtle-gif {
+  position: absolute;
+  top: 0;
+  left: 95px;
+  width: 180px;  /* smaller size */
+  height: auto;
+}
+
+html, body {
+  overflow: hidden;
+  height: 100%;
+}
+
+
+footer {
+  background-color: #F2B6D7;
+  padding: 20px;
+  text-align: center;
+}
