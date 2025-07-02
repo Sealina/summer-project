@@ -104,8 +104,11 @@ main {
   transform: scale(1.05);
 }
 
-.footer-bar {
-  min-height: 50px;
+
+
+footer {
+  background-color: #ffca7a;
+  min-height: 70px;
   padding: 20px;
-  background-color: #ffca7a;; 
+  text-align: center;
 }

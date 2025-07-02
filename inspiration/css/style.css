@@ -62,8 +62,6 @@ nav {
 }
 
 
-
-
  .home { background-color: #FFB6D9; }
 
  .home:hover {
@@ -130,8 +128,10 @@ a {
   text-decoration: none;
 }
 
-.footer-bar {
-  min-height: 50px;
+
+footer {
+  background-color: #a6e0f8;
+  min-height: 70px;
   padding: 20px;
-  background-color: #a6e0f8; 
+  text-align: center;
 }
