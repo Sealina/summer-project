@@ -54,14 +54,15 @@ header {
 }
 
 
-
-
 nav {
    display: flex;
    justify-content: center;
    gap: 200px;
 
 }
+
+
+
 
  .home { background-color: #FFB6D9; }
 
