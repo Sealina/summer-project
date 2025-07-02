@@ -77,6 +77,8 @@ header {
 }
 
 
+
+
 .grid {
   display: flex;
   flex-wrap: wrap;
@@ -127,6 +129,20 @@ header {
     right: -100px;     
     width: 450px;    
     z-index: 10;     
+}
+
+.custom-top-img {
+  width: 200px;
+  height: 150px;
+  object-fit: cover;
+  border-radius: 0; 
+}
+
+.top-left-image {
+  position: absolute;
+  top: 20px;
+  left: 30px;
+  z-index: 10;
 }
 
 footer {
