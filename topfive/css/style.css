@@ -12,7 +12,7 @@ body {
   font-size: 45px;
   color: white;
   display: inline-block;
-  margin-top: 100px;
+  margin-top: 200px;
 
 }
 
@@ -58,7 +58,7 @@ main {
 }
 
 header {
-      height: 100px;
+      height: 200px;
       background-color: #B6E87C;
       color: white;
       display: flex;
@@ -67,6 +67,14 @@ header {
       font-size: 20px;
     }
 
+.my-name {
+  position: absolute;
+  top: -47px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px; 
+  z-index: 2;
+}
 
 
 .grid {

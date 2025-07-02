@@ -14,7 +14,7 @@ nav {
 .nav-btn {
      position: relative;
      border: none;
-     margin-top: 100px;
+     margin-top: 200px;
      border-radius: 300px;
      padding: 10px 20px;
      font-weight: bold;
@@ -67,7 +67,7 @@ main {
 }
 
  header {
-      height: 100px;
+      height: 200px;
       background-color: #F2B6D7;
       color: white;
       display: flex;
@@ -76,25 +76,35 @@ main {
       font-size: 20px;
     }
 
+.my-name {
+  position: absolute;
+  top: -47px; 
+  left: 50%;
+  transform: translateX(-50%);
+  width: 700px; 
+  z-index: 2;
+}
+
 
 .catbox {
   position: relative;
   left: 350px;
-  top: 50px;
+  top: 100px;
 
 }
 
 .drawing {
-  width: 600px;
+  width: 550px;
   height: auto;
   position: relative;
-  top: -770px; 
-  z-index: 15;   
+  top: -670px; 
+  z-index: 20; 
+  margin-left: 50px;  
 }
 
 .text {
   position: absolute;
-  top: 240px;      
+  top: 390px;      
   left: 660px;     
   color: #d474a9;    
   font-size: 30px;
@@ -120,19 +130,17 @@ main {
 .turtle-gif {
   position: absolute;
   top: 0;
-  left: 95px;
-  width: 180px;  /* smaller size */
+  left: 40px;
+  width: 230px;  /* smaller size */
   height: auto;
 }
 
-html, body {
-  overflow: hidden;
-  height: 100%;
-}
 
 
 footer {
   background-color: #F2B6D7;
+  min-height: 50px;
   padding: 20px;
   text-align: center;
 }
+
